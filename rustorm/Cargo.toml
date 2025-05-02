@@ -1,0 +1,15 @@
+[package]
+name = "rustorm"
+version = "0.1.0"
+edition = "2021"
+description = "Entity Framework-style ORM in pure Rust using PostgreSQL TCP"
+license = "MIT"
+authors = ["Your Name <your@email.com>"]
+
+[dependencies]
+rustorm-macros = { path = "../rustorm-macros" }
+log = "0.4"
+env_logger = "0.10"
+
+[features]
+default = []
