@@ -7,9 +7,5 @@ license = "MIT"
 authors = ["Your Name <your@email.com>"]
 
 [dependencies]
-rustorm-macros = { path = "../rustorm-macros" }
-log = "0.4"
-env_logger = "0.10"
-
-[features]
-default = []
+postgres = "0.19"
+thiserror = "1.0"
